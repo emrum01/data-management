@@ -6,3 +6,8 @@ total = dice1 + dice2
 print("Rolling the dice...")
 print("Dice 1: {}\nDice 2: {}".format(dice1, dice2))
 print("Total value: {}".format(total))
+
+if total > 7:
+    print("{} won!".format(yourName))
+else:
+    print("{} lost!".format(yourName))
